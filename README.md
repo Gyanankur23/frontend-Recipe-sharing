@@ -26,3 +26,53 @@ To get started with the frontend project, follow these steps:
    ```sh
    git clone https://github.com/Gyanankur23/frontend-Recipe-sharing.git
    cd frontend-Recipe-sharing
+
+
+Frontend Directories 
+
+
+ frontend-Recipe-sharing/
+├── public/
+│   ├── AlooGobi.png
+│   ├── ChickenBiryani.png
+│   ├── GulabJamun.png
+│   ├── MasoorDal.png
+│   ├── PaneerMasala.png
+│   ├── app.css
+│   ├── index.html
+│   ├── Navbar.css
+├── src/
+│   ├── api/
+│   │   └── api.js
+│   ├── components/
+│   │   ├── Loading.jsx
+│   │   ├── Navbar.jsx
+│   │   
+│   ├── pages/
+│   │   ├── Comments.jsx
+│   │   ├── Credentials.jsx
+│   │   ├── Home.jsx
+│   │   ├── NotFound.jsx
+│   │   ├── Profile.jsx
+│   │   ├── Ratings.jsx
+│   │   ├── Recipedetail.jsx
+│   │   ├── RecipeList.jsx
+│   │   ├── Search.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.js
+│   └── main.jsx
+│   └── recipebg.jpg
+├── models/
+│   ├── Comment.model.js
+│   ├── Rating.model.js
+│   ├── Recipe.model.js
+│   └── User.model.js
+├── node_modules/
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+
+
+
