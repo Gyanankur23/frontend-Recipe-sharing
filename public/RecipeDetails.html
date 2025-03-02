@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-image: url('/recipebg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+
+            background-color: black;
+            color: white;
+        }
+        .recipe {
+            margin-bottom: 40px;
+        }
+        .recipe h2 {
+            font-size: 2em;
+            color: #FF6347;
+        }
+        .ingredients, .instructions {
+            margin-left: 20px;
+        }
+        .image-placeholder {
+            width: 300px;
+            height: 200px;
+            background-color: #e0e0e0;
+            text-align: center;
+            line-height: 200px;
+            margin-left: 20px;
+            color: #a0a0a0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px;
+            color: #333;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        nav ul li a.active {
+            background-color: #FF6347;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <h2>1. Chicken Biryani</h2>
+        <img src="ChickenBiryani.png" alt="Chicken Biryani" style="width: 300px; height: 200px;">
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 kg chicken, cut into pieces</li>
+                <li>2 cups basmati rice</li>
+                <li>4 onions, thinly sliced</li>
+                <li>2 tomatoes, chopped</li>
+                <li>1 cup yogurt</li>
+                <li>1 tbsp ginger garlic paste</li>
+                <li>1 tsp turmeric powder</li>
+                <li>2 tbsp biryani masala</li>
+                <li>1/2 cup chopped mint leaves</li>
+                <li>1/2 cup chopped coriander leaves</li>
+                <li>Salt to taste</li>
+                <li>3 tbsp ghee</li>
+                <li>2 tbsp oil</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Marinate the chicken with yogurt, turmeric, ginger garlic paste, and biryani masala for at least an hour.</li>
+                <li>Cook the basmati rice until 70% done and set aside.</li>
+                <li>Heat oil and ghee in a large pot, fry the onions until golden brown.</li>
+                <li>Add chopped tomatoes and cook until mushy.</li>
+                <li>Add marinated chicken and cook until the chicken is tender.</li>
+                <li>Layer the rice over the chicken mixture, sprinkle chopped mint and coriander leaves.</li>
+                <li>Cover the pot with a tight-fitting lid and cook on low heat for 20-25 minutes.</li>
+                <li>Serve hot with raita.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="recipe">
+        <h2>2. Paneer Butter Masala</h2>
+       
+        <img src="PaneerMasala.png" alt="Paneer  Masala" style="width: 300px; height: 200px;">
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>250g paneer, cubed</li>
+                <li>2 onions, finely chopped</li>
+                <li>2 tomatoes, pureed</li>
+                <li>1 tbsp ginger garlic paste</li>
+                <li>1/2 cup fresh cream</li>
+                <li>1/4 cup butter</li>
+                <li>1 tsp turmeric powder</li>
+                <li>1 tsp red chili powder</li>
+                <li>2 tbsp tomato ketchup</li>
+                <li>1 tbsp garam masala</li>
+                <li>Salt to taste</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Heat butter in a pan and sauté onions until golden brown.</li>
+                <li>Add ginger garlic paste and cook for 2 minutes.</li>
+                <li>Add tomato puree, turmeric, red chili powder, and salt. Cook until oil separates.</li>
+                <li>Add tomato ketchup and garam masala. Mix well.</li>
+                <li>Add cubed paneer and fresh cream. Cook for 5-7 minutes.</li>
+                <li>Garnish with fresh coriander leaves and serve hot with naan or rice.</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="recipe">
+        <h2>3. Masoor Dal</h2>
+        <img src="MasoorDal.png" alt="Masoor Dal" style="width: 300px; height: 200px;">
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup masoor dal (red lentils)</li>
+                <li>2 tomatoes, chopped</li>
+                <li>1 onion, finely chopped</li>
+                <li>2 green chilies, slit</li>
+                <li>1 tbsp ginger garlic paste</li>
+                <li>1/2 tsp turmeric powder</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1 tsp mustard seeds</li>
+                <li>1/2 tsp red chili powder</li>
+                <li>2 tbsp oil</li>
+                <li>Salt to taste</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Wash and soak the masoor dal for 30 minutes.</li>
+                <li>Pressure cook the dal with turmeric powder and salt until soft.</li>
+                <li>Heat oil in a pan and add cumin and mustard seeds. Let them splutter.</li>
+                <li>Add onions and sauté until golden brown.</li>
+                <li>Add ginger garlic paste and green chilies. Cook for 2 minutes.</li>
+                <li>Add chopped tomatoes and cook until mushy.</li>
+                <li>Add the cooked dal and red chili powder. Simmer for 10 minutes.</li>
+                <li>Garnish with fresh coriander leaves and serve hot with rice or roti.</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="recipe">
+        <h2>4. Aloo Gobi</h2>
+        <img src="AlooGobi.png" alt="Aloo Gobi" style="width: 300px; height: 200px;">
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>2 potatoes, peeled and cubed</li>
+                <li>1 small cauliflower, cut into florets</li>
+                <li>1 onion, finely chopped</li>
+                <li>2 tomatoes, chopped</li>
+                <li>1 tbsp ginger garlic paste</li>
+                <li>1 tsp turmeric powder</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1 tsp coriander powder</li>
+                <li>1/2 tsp red chili powder</li>
+                <li>2 tbsp oil</li>
+                <li>Salt to taste</li>
+                <li>Fresh coriander leaves for garnish</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Heat oil in a pan and add cumin seeds. Let them splutter.</li>
+                <li>Add onions and sauté until golden brown.</li>
+                <li>Add ginger garlic paste and cook for 2 minutes.</li>
+                <li>Add chopped tomatoes and cook until mushy.</li>
+                <li>Add turmeric, coriander, and red chili powder. Mix well.</li>
+                <li>Add potatoes and cauliflower florets. Stir to coat with the spices.</li>
+                <li>Cover and cook on low heat until the vegetables are tender.</li>
+                <li>Garnish with fresh coriander leaves and serve hot with chapati or rice.</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="recipe">
+        <h2>5. Gulab Jamun</h2>
+         <img src="GulabJamun.png" alt="Gulab Jamun" style="width: 300px; height: 200px;">
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup khoya (milk solids)</li>
+                <li>1/4 cup all-purpose flour</li>
+                <li>1/4 tsp baking soda</li>
+                <li>1/4 cup milk</li>
+                <li>1 cup sugar</li>
+                <li>2 cups water</li>
+                <li>1/2 tsp cardamom powder</li>
+                <li>Oil for frying</li>
+                <li>Saffron strands (optional)</li>
+                <li>Chopped pistachios for garnish</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>In a bowl, mix khoya, all-purpose flour, and baking soda. Add milk to form a soft dough.</li>
+                <li>Divide the dough into small balls, ensuring there are no cracks.</li>
+                <li>Heat oil in a pan and fry the balls on low heat until golden brown.</li>
+                <li>In a separate pot, combine sugar, water, and cardamom powder. Boil to make syrup.</li>
+                <li>Soak the fried balls in the hot syrup for 2-3 hours.</li>
+                <li>Garnish with saffron strands and chopped pistachios before serving.</li>
+            </ol>
+        </div>
+    </div>
+    
+
+    <script src="comments_and_ratings.js"></script>
+</body>
+</html>
