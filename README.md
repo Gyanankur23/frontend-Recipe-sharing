@@ -45,9 +45,9 @@ npm install
 npm run dev
 
 
----
 
-📁 Project Structure
+
+###📁 Project Structure
 
 frontend-Recipe-sharing/
 ├── public/
@@ -92,23 +92,23 @@ frontend-Recipe-sharing/
 ├── .gitignore
 
 
----
 
-👨‍🍳 Ready to Cook?
+
+###👨‍🍳 Ready to Cook?
 
 Pull up your apron, fork the repo, and start crafting your digital cookbook!
 
 
 ---
 
-🧡 Contributing
+###🧡 Contributing
 
 We welcome contributions! Fork the project, create a branch, and open a PR. Let’s build a tastier web together!
 
 
 ---
 
-📬 Contact
+###📬 Contact
 
 Got questions or feedback? Reach out via issues!
 
