@@ -47,7 +47,7 @@ npm run dev
 
 
 
-###📁 Project Structure
+*****📁 Project Structure*****
 
 frontend-Recipe-sharing/
 ├── public/
