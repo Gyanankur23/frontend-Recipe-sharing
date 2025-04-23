@@ -1,58 +1,44 @@
-🍲 Frontend Recipe Sharing
+# 🍲 Frontend Recipe Sharing
 
-> A flavorful React app to share, explore, and savor recipes from around the world!
-
-
-
+> A flavorful React app to **share**, **explore**, and **savor** recipes from around the world!
 
 ---
 
-📖 Project Overview
+## 📖 Project Overview
 
-Welcome to the Frontend Recipe Sharing platform! This deliciously designed project delivers an intuitive, responsive, and engaging user experience to discover and share recipes. Built using React and powered by backend APIs, it brings your culinary inspirations to life!
-
-
----
-
-✨ Features
-
-🔍 Browse & Search recipes with ease
-
-🧾 Detailed Recipe Pages with ingredients, steps & comments
-
-⭐ Rate & Comment on your favorite dishes
-
-📱 Responsive Design — Looks great on all devices!
-
-
+Welcome to the **Frontend Recipe Sharing** platform! This deliciously designed project delivers an intuitive, responsive, and engaging user experience to discover and share recipes. Built using **React** and powered by backend APIs, it brings your culinary inspirations to life!
 
 ---
 
-🛠️ Tech Stack
+## ✨ Features
 
-⚛️ React
-
-🌐 Axios – For smooth API interactions
-
-🎨 HTML, CSS, JavaScript
-
-⚡ Vite – Fast project setup & build process
-
-
+- 🔍 **Browse & Search** recipes with ease  
+- 🧾 **Detailed Recipe Pages** with ingredients, steps & comments  
+- ⭐ **Rate & Comment** on your favorite dishes  
+- 📱 **Responsive Design** — Looks great on all devices!
 
 ---
 
-🚀 Getting Started
+## 🛠️ Technologies Used
+
+- ⚛️ **React**
+- 🌐 **Axios** – For smooth API interactions
+- 🎨 **HTML**, **CSS**, **JavaScript**
+- ⚡ **Vite** – Fast project setup & build process
+
+---
+
+## 🚀 Getting Started
 
 Follow these steps to get cooking with the project!
 
-✅ Prerequisites
+### ✅ Prerequisites
 
-Install Node.js and npm
+- Install **Node.js** and **npm**
 
+### 📦 Installation
 
-📦 Installation
-
+```bash
 git clone https://github.com/Gyanankur23/frontend-Recipe-sharing.git
 cd frontend-Recipe-sharing
 npm install
@@ -125,8 +111,4 @@ We welcome contributions! Fork the project, create a branch, and open a PR. Let�
 📬 Contact
 
 Got questions or feedback? Reach out via issues!
-
-GitHub :- Gyanankur23
-Linkdlekn:- Gyanankur Baruah 
-
 
