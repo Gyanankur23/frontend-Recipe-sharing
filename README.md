@@ -1,6 +1,6 @@
 # 🍲 Frontend Recipe Sharing
 
-> A flavorful React app to **share**, **explore**, and **savor** recipes from around the world!
+> A flavorful React app to **share**, **explore**, and **savor** recipes from around the world! New changes in version v.0.2.0 in 2026
 
 ---
 
