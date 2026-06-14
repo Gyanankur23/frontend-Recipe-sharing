@@ -1,10 +1,4 @@
 import React from 'react';
-import ChickenBiryani from './ChickenBiryani.png';
-import PaneerMasala from './PaneerMasala.png';
-import MasoorDal from './MasoorDal.png';
-import AlooGobi from './AlooGobi.png';
-import GulabJamun from './GulabJamun.png';
-import '../App';
 import './app.css';
 
 
@@ -12,7 +6,7 @@ const recipes = [
   {
     id: 1,
     title: 'Chicken Biryani',
-    image: ChickenBiryani,
+    image: '/ChickenBiryani.png',
     ingredients: [
       "1 kg chicken, cut into pieces",
       "2 cups basmati rice",
@@ -42,7 +36,7 @@ const recipes = [
   {
     id: 2,
     title: 'Paneer Butter Masala',
-    image: PaneerMasala,
+    image: '/PaneerMasala.png',
     ingredients: [
       "250g paneer, cubed",
       "2 onions, finely chopped",
@@ -69,7 +63,7 @@ const recipes = [
   {
     id: 3,
     title: 'Masoor Dal',
-    image: MasoorDal,
+    image: '/MasoorDal.png',
     ingredients: [
       "1 cup masoor dal (red lentils)",
       "2 tomatoes, chopped",
@@ -98,7 +92,7 @@ const recipes = [
   {
     id: 4,
     title: 'Aloo Gobi',
-    image: AlooGobi,
+    image: '/AlooGobi.png',
     ingredients: [
       "2 potatoes, peeled and cubed",
       "1 small cauliflower, cut into florets",
@@ -127,7 +121,7 @@ const recipes = [
   {
     id: 5,
     title: 'Gulab Jamun',
-    image: GulabJamun,
+    image: '/GulabJamun.png',
     ingredients: [
       "1 cup khoya (milk solids)",
       "1/4 cup all-purpose flour",
@@ -153,7 +147,7 @@ const recipes = [
 
 const Recipedetails = () => {
   return (
-    <div>
+    <div className="page-container">
       {recipes.map((recipe, index) => (
         <div className="recipe" key={index}>
           <h2>{recipe.title}</h2>

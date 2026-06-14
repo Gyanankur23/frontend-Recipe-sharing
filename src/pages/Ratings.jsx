@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css';
 
 const ratings = [
   { recipeId: 1, userId: 1, rating: 5 },
@@ -26,17 +27,17 @@ const recipes = [
 
 const Ratings = () => {
   return (
-    <div style={{ textAlign: 'center', padding: '2rem' }}>
-      <h2 style={{ fontSize: '3em', color: '#ff5733', textShadow: '1px 1px 5px rgba(0, 0, 0, 0.5)' }}>
-        Ratings
-      </h2>
-      <ol style={{ listStyleType: 'decimal', padding: 0, textAlign: 'left' }}>
-        {ratings.map((rating, index) => (
-          <li key={index} style={{ fontSize: '1.5em', color: '#000000', margin: '1rem 0', fontWeight: 'bold' }}>
-            {recipes[rating.recipeId - 1].title} by {users[rating.userId - 1].username} - Rating: {rating.rating}
-          </li>
-        ))}
-      </ol>
+    <div className="page-container">
+      <div className="card">
+        <h2>Ratings</h2>
+        <ol>
+          {ratings.map((rating, index) => (
+            <li key={index}>
+              {recipes[rating.recipeId - 1].title} by {users[rating.userId - 1].username} - Rating: {rating.rating}
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 };

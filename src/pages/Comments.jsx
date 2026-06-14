@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './app.css';
 
 const Comments = ({ recipeId }) => {
   const [comments, setComments] = useState([]);
@@ -65,28 +66,30 @@ const Comments = ({ recipeId }) => {
   }, [recipeId]);
 
   return (
-    <div>
-      <h3 style={{ fontSize: '2em', color: '#ff5733' }}>Comments</h3>
-      <ul>
-        {comments.map((comment, index) => (
-          <li key={index} style={{ fontSize: '1.5em' }}>{comment.text}</li>
-        ))}
-      </ul>
-      <input
-        type="text"
-        value={newComment}
-        onChange={(e) => setNewComment(e.target.value)}
-        placeholder="Add a comment"
-        style={{ fontSize: '1.5em' }}
-      />
-      <button onClick={handleAddComment} style={{ fontSize: '1.5em' }}>Submit</button>
-      <div style={{ textAlign: 'center', padding: '2rem' }}>
-        <h2 style={{ fontSize: '2.5em', color: '#ff5733', textShadow: '1px 1px 5px rgba(0, 0, 0, 0.5)' }}>
-          Comments by some other users
-        </h2>
-        <ol style={{ listStyleType: 'decimal', padding: 0, textAlign: 'left' }}>
+    <div className="page-container">
+      <div className="card">
+        <h2>Comments</h2>
+        <ul>
+          {comments.map((comment, index) => (
+            <li key={index}>{comment.text}</li>
+          ))}
+        </ul>
+        <div style={{ marginTop: '1.5rem' }}>
+          <input
+            type="text"
+            value={newComment}
+            onChange={(e) => setNewComment(e.target.value)}
+            placeholder="Add a comment"
+            style={{ marginBottom: '1rem' }}
+          />
+          <button onClick={handleAddComment}>Submit</button>
+        </div>
+      </div>
+      <div className="card">
+        <h2>Comments by some other users</h2>
+        <ol>
           {sampleComments.map((comment, index) => (
-            <li key={index} style={{ fontSize: '1.2em', color: '#000000', margin: '1rem 0', fontWeight: 'bold' }}>
+            <li key={index}>
               {index + 1}. {comment.username} - {comment.comment} (Rating: {comment.rating})
             </li>
           ))}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './app.css';
 
 const recipes = [
   { id: 1, title: 'Chicken Biryani' },
@@ -10,17 +12,19 @@ const recipes = [
 
 const RecipeList = () => {
   return (
-    <div style={{ textAlign: 'center', padding: '2rem' }}>
-      <h2 style={{ fontSize: '3em', color: '#ff5733', textShadow: '1px 1px 5px rgba(0, 0, 0, 0.5)' }}>
-        Recipe List
-      </h2>
-      <ol style={{ listStyleType: 'decimal', padding: 0, textAlign: 'left' }}>
-        {recipes.map((recipe) => (
-          <li key={recipe.id} style={{ fontSize: '1.5em', color: '#000000', margin: '1rem 0', fontWeight: 'bold' }}>
-            {recipe.title}
-          </li>
-        ))}
-      </ol>
+    <div className="page-container">
+      <div className="card">
+        <h2>Recipe List</h2>
+        <ol>
+          {recipes.map((recipe) => (
+            <li key={recipe.id}>
+              <Link to="/recipe-details" style={{ textDecoration: 'none', color: 'inherit' }}>
+                {recipe.title}
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 };
